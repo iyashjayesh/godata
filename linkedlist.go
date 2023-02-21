@@ -1,11 +1,11 @@
-package datastructures
+package main
 
 type LinkedList struct {
 	Head *Node
 	Tail *Node
 }
 
-func New() *LinkedList {
+func NewLinkedList() *LinkedList {
 	return &LinkedList{}
 }
 
